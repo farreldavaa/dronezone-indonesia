@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\TestController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,8 +15,18 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/', [TestController::class, 'portofolio']);
+Route::get('/home', [TestController::class, 'portofolio']);
+// Route::get('/portofolio', function () {
+//     return view('portofolio');
+// });
+
+Route::get('/shop',[TestController::class, 'shop']);
+
+Route::prefix('admin')->group(function () {
+    Route::resources([
+        'products' => App\Http\Controllers\Backoffice\ProductController::class,
+    ]);
 });
 
 Route::get('/dashboard', function () {
