@@ -19,6 +19,13 @@
     <link rel="stylesheet" href="{{ url('assets/extensions/simple-datatables/style.css') }}">
     <link rel="stylesheet" href="{{ url('assets/css/pages/simple-datatables.css') }}">
 
+    <link rel="stylesheet" href="{{ url('assets/extensions/filepond/filepond.css') }}">
+    <link rel="stylesheet" href="{{ url('assets/extensions/filepond-plugin-image-preview/filepond-plugin-image-preview.css') }}">
+    <link rel="stylesheet" href="{{ url('assets/extensions/toastify-js/src/toastify.css') }}">
+    <link rel="stylesheet" href="{{ url('assets/css/pages/filepond.css') }}">
+
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
+
     @yield('css')
 
 </head>
@@ -64,10 +71,13 @@
 
     <script src="{{ url('assets/js/bootstrap.js') }}"></script>
     <script src="{{ url('assets/js/app.js') }}"></script>
-    <script src="{{ url('assets/extensions/apexcharts/apexcharts.min.js') }}"></script>
-    <script src="{{ url('assets/js/pages/dashboard.js') }}"></script>
     <script src="{{ url('assets/extensions/simple-datatables/umd/simple-datatables.js') }}"></script>
     <script src="{{ url('assets/js/pages/simple-datatables.js') }}"></script>
+    <script src="{{ url('assets/extensions/filepond/filepond.js') }}"></script>
+    <script src="{{ url('assets/extensions/toastify-js/src/toastify.js') }}"></script>
+    <script src="{{ url('assets/js/pages/filepond.js') }}"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
     @yield('script')
 
 </body>
