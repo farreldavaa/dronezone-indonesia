@@ -12,4 +12,12 @@ class Product extends Model
     protected $table = 'products';
 
     protected $guarded = ['created_at', 'updated_at'];
+
+    protected $appends = ['product_image'];
+
+    //define accessor
+    public function getProductImageAttribute()
+    {
+        return json_decode($this->image)->data->url;
+    }
 }
