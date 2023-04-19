@@ -25,3 +25,9 @@ Route::get('/home', [TestController::class, 'portofolio']);
 // });
 
 Route::get('/shop',[TestController::class, 'shop']);
+
+Route::prefix('admin')->group(function () {
+    Route::resources([
+        'products' => App\Http\Controllers\Backoffice\ProductController::class,
+    ]);
+});
