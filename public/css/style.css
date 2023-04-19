@@ -1,0 +1,103 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.content{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.content .container{
+    margin-top: 50px;
+    height: 100vh;
+    width: 670px;
+    overflow: auto;
+}
+
+.content .container .img{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.content .container .img .avatar {
+    margin: 0 0 10px;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.container .img .description{
+    margin: 0 15px 0;
+}
+
+.container .img .description h4{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.container .img .description .highlight{
+    display: inline-block;
+    background: #b7ecbe;
+    color: #000000;
+    font-size: 14px;
+}
+
+.container .container-porto{
+    margin: 20px 0 15px;
+}
+
+.container .container-shop{
+    margin: 20px 0 15px;
+}
+
+.container .container-shop h4{
+    font-weight: 700;
+}
+
+.container .container-shop p{
+    font-weight: 400;
+}
+
+.container .container-porto a{
+    font-weight: 700;
+    text-decoration: none;
+    color: rgba(20, 35, 119, 0.74);
+}
+
+.container .container-porto p{
+    font-size: 17px;
+}
+
+.container .container-gal{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0 20px;
+}
+
+.container .container-gal h4{
+    font-weight: 700;
+    text-decoration: none;
+    margin: 0 0 15px;
+}
+
+.container .container-gal iframe{
+    width: 645px;
+    height: 362px;
+    border-radius: 10px;
+    margin: 0 0 20px;
+}
+
+.container .container-music{
+    margin: 20px 0 20px;
+}
+
+.container .container-music h4{
+    font-weight: 700;
+    text-decoration: none;
+    margin: 0 0 15px;
+}
