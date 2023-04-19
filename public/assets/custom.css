@@ -75,3 +75,7 @@ body .theme-dark .dataTables_wrapper .dataTables_length,
 .dataTables_wrapper .dataTables_paginate {
     color: rgb(56, 56, 56);
 }
+
+#output {
+    padding: 1rem 0rem;
+}
