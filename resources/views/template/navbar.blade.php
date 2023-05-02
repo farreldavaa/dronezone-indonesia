@@ -8,8 +8,6 @@
   <div id="sidebarMenu">
     <ul class="sidebarMenuInner">
       <li><a href="{{url('/')}}">Home</a></li>
-      <li><a href="https://www.instagram.com/octdevinn/?hl=id" target="_blank">Instagram</a></li>
-      <li><a href="https://twitter.com/farreldavaa" target="_blank">Twitter</a></li>
       <li><a href="https://github.com/farreldavaa" target="_blank">Github</a></li>
       <li><a href="{{url('shop')}}">Shop</a></li>
     </ul>
