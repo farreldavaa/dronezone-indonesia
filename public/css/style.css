@@ -106,7 +106,7 @@ body{
     margin: 0 0 15px;
 }
 
-.container .container-items{
+/* .container .container-items{
     display: flex;
     gap: 15px;
     justify-content: flex-start;
@@ -114,7 +114,7 @@ body{
     margin-left: 26.5px;
     margin-top: 20px;
     margin-bottom: 35px;
-}
+} */
 
 .container .container-items .card {
     box-shadow: 0 4px 8px 0 rgba(61, 61, 61, 0.2); /* this adds the "card" effect */

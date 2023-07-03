@@ -9,6 +9,11 @@ body {
     margin: 0;
     /* font-family: 'Varela Round', sans-serif; */
 }
+
+div.nav{
+    display: flex;
+    justify-content: space-between;
+}
 .header {
     display: block;
     opacity: 0.01;

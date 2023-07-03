@@ -21,3 +21,6 @@ Route::get('/home', [TestController::class, 'portofolio']);
 // });
 
 Route::get('/shop',[TestController::class, 'shop']);
+Route::get('/droneshop',[TestController::class, 'droneshop']);
+Route::get('/droneshop/$p->id/dronedetail',[TestController::class, 'dronedetail']);
+Route::get('/landingpage',[TestController::class, 'dronedashboard']);
